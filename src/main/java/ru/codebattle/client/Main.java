@@ -14,7 +14,7 @@ import static ru.codebattle.client.api.Direction.*;
 
 public class Main {
 
-	private static final String SERVER_ADDRESS = "http://codebattle2020final.westeurope.cloudapp.azure.com/codenjoy-contest/board/player/gmpt1dibg9syj35umr3t?code=2676475597175468131&gameName=bomberman";
+	private static final String SERVER_ADDRESS = "http://codebattle2020s1.westeurope.cloudapp.azure.com/codenjoy-contest/board/player/zmrqof4dc5kzib98nl6r?code=5205264674886975332&gameName=bomberman";
 
 	public static void main(String[] args) throws URISyntaxException, IOException {
 		CodeBattleClient client = new CodeBattleClient(SERVER_ADDRESS);

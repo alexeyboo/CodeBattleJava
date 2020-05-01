@@ -10,7 +10,7 @@ import java.util.*;
 import static ru.codebattle.client.api.BoardElement.*;
 
 public class Attacking {
-	public static final BoardElement[] ENEMIES = {OTHER_BOMBERMAN, OTHER_BOMB_BOMBERMAN, MEAT_CHOPPER};
+	public static final BoardElement[] ENEMIES = {OTHER_BOMBERMAN, OTHER_BOMB_BOMBERMAN, MEAT_CHOPPER, DESTROY_WALL};
 
 	public static boolean doAttack(GameBoard gameBoard) {
 		boolean attack = hasEnemy(gameBoard);

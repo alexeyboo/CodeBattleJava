@@ -64,11 +64,12 @@ public class Surviving {
 		if (!freeDirections.isEmpty()) {
 			direction = freeDirections.get(rand.nextInt(freeDirections.size()));
 		} else {
-			if (!enemyDirections.isEmpty()) {
-				freeDirections.addAll(enemyDirections);
-				direction = freeDirections.get(rand.nextInt(freeDirections.size()));
-			} else if (!dangerousDirections.isEmpty()) {
+			if (!dangerousDirections.isEmpty()) {
+
 				freeDirections.addAll(dangerousDirections);
+				direction = freeDirections.get(rand.nextInt(freeDirections.size()));
+			} else if (!enemyDirections.isEmpty()) {
+				freeDirections.addAll(enemyDirections);
 				direction = freeDirections.get(rand.nextInt(freeDirections.size()));
 			}
 		}
